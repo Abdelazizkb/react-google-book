@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color:  rgba(0, 0, 0, 0.685);
+}
+
+.content{
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.content div{
+  width: 400px;
+  background-color: #c6c7c765;
+  margin: 20px;
+  border-radius: 5px;
+}
+.content div h3{
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color:  rgba(0, 0, 0, 0.685);
+}
+
+
+.content div p{
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color:  rgba(0, 0, 0, 0.856);
+  justify-self: start;
+  overflow: hidden;
+}
